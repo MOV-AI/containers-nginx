@@ -1,0 +1,4 @@
+server { 
+    listen 6060 udp; 
+    proxy_pass spawner-ROBOT-movai:6060; 
+}
